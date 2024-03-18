@@ -12,4 +12,22 @@ In PuTTY type in ip of the device and press "Open".
 
 Raspberry will ask for user's name and password. *Important* While typing password, you will not see characters appearing - just type in password and press enter.
 
+Update software using *sudo apt update* command. In case of packages which can be upgraded, additionally use *sudo apt full-upgrade*.
+
+Now we will move to samba. Type in *sudo apt install samba*. In case of questions to install additional elements, pres *y*. Also you will see progress bar on the bottom.
+
+Once done, check status with *sudo systemctl status smbd* command.
+
+Use command df -h to check location of the connected disk.
+![image](https://github.com/WPela/IT_Projects/assets/62253932/9e4f12f4-dd68-4b16-b131-fc1087c17f5b)
+
+In this case it is /dev/sda1 and I will create new directory using *sudo mkdir /media/shared_disk* command. 
+
+Verify id -u and id -g 
+![image](https://github.com/WPela/IT_Projects/assets/62253932/20918f1e-f856-4d43-85a6-d618ddcf2bab)
+
+
+Now map the disk to the directory using *sudo nano /etc/fstab* command and type in the same as on the screenshot.
+
+![image](https://github.com/WPela/IT_Projects/assets/62253932/763e52b0-99a3-4d9f-bc34-22bbb0e84501)
 
