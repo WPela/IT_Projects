@@ -29,6 +29,9 @@ Verify id -u and id -g
 
 
 Now map the disk to the directory using *sudo nano /etc/fstab* command and type locations and settings similar to the line on the screenshot.
+![image](https://github.com/WPela/IT_Projects/assets/62253932/fb43bb9d-f6b4-4f6b-ab37-8a664809fbf8)
+
+
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/763e52b0-99a3-4d9f-bc34-22bbb0e84501)
 
 Reboot Raspberry after that.
