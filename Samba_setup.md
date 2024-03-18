@@ -23,11 +23,19 @@ Use command df -h to check location of the connected disk.
 
 In this case it is /dev/sda1 and I will create new directory using *sudo mkdir /media/shared_disk* command. 
 
+*BELOW PART MAY NOT BE NEEDED*
 Verify id -u and id -g 
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/20918f1e-f856-4d43-85a6-d618ddcf2bab)
 
 
-Now map the disk to the directory using *sudo nano /etc/fstab* command and type in the same as on the screenshot.
-
+Now map the disk to the directory using *sudo nano /etc/fstab* command and type locations and settings similar to the line on the screenshot.
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/763e52b0-99a3-4d9f-bc34-22bbb0e84501)
+
+Reboot Raspberry after that.
+
+Open samba config now *sudo nano /etc/samba/smb.conf* and add shared directory as below:
+![image](https://github.com/WPela/IT_Projects/assets/62253932/c55be9da-d5a1-4abe-99d1-5ff72c95d12e)
+
+At the end restart samba *service smbd restart*.
+
 
