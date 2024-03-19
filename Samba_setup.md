@@ -36,6 +36,6 @@ Reboot Raspberry after that.
 Open samba config now *sudo nano /etc/samba/smb.conf* and add shared directory as below:
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/c55be9da-d5a1-4abe-99d1-5ff72c95d12e)
 
-Restart password with *sudo passwd username*.
+Restart password with *sudo smbpasswd -a username*.
 
 At the end restart samba *service smbd restart*.
