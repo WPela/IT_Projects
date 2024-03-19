@@ -40,3 +40,6 @@ Restart password with *sudo smbpasswd -a username*.
 At the end restart samba *service smbd restart*.
 
 Now, map network drive on you PC using ip adress and name of the shared location e.g. *\\192.168.0.23\PiServer*.
+
+![image](https://github.com/WPela/IT_Projects/assets/62253932/94259acf-dde2-4b8b-bc18-54f0bf27e160)
+
