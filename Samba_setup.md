@@ -18,7 +18,7 @@ Now we will move to samba. Type in *sudo apt install samba*. In case of question
 
 Once done, check status with *sudo systemctl status smbd* command.
 
-Use command df -h to check location of the connected disk.
+Use command *df -h* to check location of the connected disk.
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/9e4f12f4-dd68-4b16-b131-fc1087c17f5b)
 
 In this case it is /dev/sda1 and I will create new directory using *sudo mkdir /media/shared_disk* command. 
