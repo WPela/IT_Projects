@@ -38,3 +38,5 @@ Open samba config now *sudo nano /etc/samba/smb.conf* and add shared directory o
 Restart password with *sudo smbpasswd -a username*.
 
 At the end restart samba *service smbd restart*.
+
+Now, map network drive on you PC using ip adress and name of the shared location e.g. *\\192.168.0.23\PiServer*.
