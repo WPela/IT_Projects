@@ -31,6 +31,7 @@ Reboot Raspberry after that.
 
 
 Open samba config now *sudo nano /etc/samba/smb.conf* and add shared directory on the bottom of the page as below:
+
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/4c2d11f2-f757-43bc-8da1-f71e585f8904)
 
 
