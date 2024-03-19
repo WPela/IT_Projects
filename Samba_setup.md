@@ -24,6 +24,7 @@ Use command *df -h* to check location of the connected disk.
 In this case it is /dev/sda1 and I will create new directory using *sudo mkdir /PiServer* command. 
 
 Now map the disk to the directory using *sudo nano /etc/fstab* command and type locations and settings similar to the line on the screenshot.
+
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/2c66267e-80df-4e6b-b57f-f26653d54396)
 
 Reboot Raspberry after that.
