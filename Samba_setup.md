@@ -21,20 +21,17 @@ Once done, check status with *sudo systemctl status smbd* command.
 Use command *df -h* to check location of the connected disk.
 ![image](https://github.com/WPela/IT_Projects/assets/62253932/9e4f12f4-dd68-4b16-b131-fc1087c17f5b)
 
-In this case it is /dev/sda1 and I will create new directory using *sudo mkdir /media/shared_disk* command. 
-
-Verify id -u and id -g 
-![image](https://github.com/WPela/IT_Projects/assets/62253932/20918f1e-f856-4d43-85a6-d618ddcf2bab)
-
+In this case it is /dev/sda1 and I will create new directory using *sudo mkdir /PiServer* command. 
 
 Now map the disk to the directory using *sudo nano /etc/fstab* command and type locations and settings similar to the line on the screenshot.
-![image](https://github.com/WPela/IT_Projects/assets/62253932/fb43bb9d-f6b4-4f6b-ab37-8a664809fbf8)
+![image](https://github.com/WPela/IT_Projects/assets/62253932/2c66267e-80df-4e6b-b57f-f26653d54396)
 
 Reboot Raspberry after that.
 
 
-Open samba config now *sudo nano /etc/samba/smb.conf* and add shared directory as below:
-![image](https://github.com/WPela/IT_Projects/assets/62253932/c55be9da-d5a1-4abe-99d1-5ff72c95d12e)
+Open samba config now *sudo nano /etc/samba/smb.conf* and add shared directory on the bottom of the page as below:
+![image](https://github.com/WPela/IT_Projects/assets/62253932/4c2d11f2-f757-43bc-8da1-f71e585f8904)
+
 
 Restart password with *sudo smbpasswd -a username*.
 
