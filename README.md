@@ -11,4 +11,3 @@ Repository dedicated for IT Projects, mostly around Python and Raspberry Pi
 
 *cron setup*
  - scheduled task
- - scheduled reboot
