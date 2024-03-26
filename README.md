@@ -11,3 +11,5 @@ Repository dedicated for IT Projects, mostly around Python and Raspberry Pi
 
 *cron setup*
  - scheduled task
+
+*API_to_CSV script which download data every hour*
